@@ -4,3 +4,8 @@
 <h2>- [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).</h2>
 <h2>- [ ] Convert my first blog post into an actual webpage.</h2>
 <h2>## Review</h2>
+<h2> Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)</h2>
+
+<h2> ```bash </h2>
+<h2>ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4 </h2>
+<h2> ``` </h2>
